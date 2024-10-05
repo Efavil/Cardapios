@@ -1,7 +1,10 @@
-@import './nav.scss';
+@import './nav';
+@import './main';
+
 
 html, body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-snap-type: y mandatory;
 }
