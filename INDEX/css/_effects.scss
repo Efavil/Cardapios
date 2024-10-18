@@ -1,0 +1,10 @@
+.foods.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.foods.inactive {
+  transform: scale(0.9);
+  opacity: 0.7;
+  display: none;
+}

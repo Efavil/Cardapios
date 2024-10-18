@@ -1,0 +1,11 @@
+.foods.active {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+  
+  .foods.inactive {
+    transform: scale(0.9);
+    filter: blur(5px);
+    opacity: 0.7;
+  }

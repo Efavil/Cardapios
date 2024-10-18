@@ -3,10 +3,11 @@ img {
 }
 
 section {
-    border: 1px solid green;
-    margin-bottom: 110px;
+    width: 320px;
+    margin-bottom: 100px;
     text-align: center;
     scroll-snap-align: center;
+    scroll-snap-stop: always;
     padding-top: 15px;
 }
 
@@ -15,14 +16,12 @@ section {
     margin-bottom: 80px;
 }
 
+.foods {
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out, filter 0.6s ease-in-out;
+}
+
 h1 {
     margin: 0px;
     position: relative;
     top: -40px;
-}
-
-.out-of-focus {
-    transform: scale(0.8);
-    filter: blur(5px);
-    opacity: 0.5;
 }

@@ -1,0 +1,50 @@
+nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: blue;
+  position: fixed;
+  z-index: 100;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 100vw;
+}
+
+section {
+  min-width: 100vw;
+  text-align: center;
+  scroll-snap-align: center;
+  padding-top: 15px;
+}
+
+.foods {
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out, filter 0.6s ease-in-out;
+}
+
+h1 {
+  margin: 0px;
+  position: relative;
+  top: -40px;
+}
+
+.foods.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.foods.inactive {
+  transform: scale(0.9);
+  opacity: 0.7;
+  display: none;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=index.css.map */
